@@ -4,13 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Intro-Form</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+  <main class="main-content">
+
+    <div class="intro-form-container container">
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-main">
+          <p class="hero-badge">frontend and backend</p>
+          <h1 class="hero-heading">Learn to program by <br> watching <br> professionals</h1>
+          <p class="hero-text">See how experienced developers solve <br> problems in real time</p>
+        </div>
+
+        <div class="hero-bottom"><strong>Try it free 7 days,</strong> then $20/mo</div>
+      </section>
+
+      <!-- REGISTRATION FORM -->
+      <section class="sign-up">
+        <h2 class="sign-up-heading">Sign up for the course and get free 7 days</h2>
+
+        <form class="sign-up-forms" action="https://echo.htmlacademy.ru">
+          <input class="sign-up-form sign-up-form-name" type="text" placeholder="Name" value="name" aria-level="Name" required>
+
+          <input class="sign-up-form sign-up-form-last-name" type="sign-up-form-text" placeholder="Last Name" value="last-name" aria-level="Last Name" required>
+
+          <input class="sign-up-form sign-up-form-email" type="email" value="Email" aria-label="Email Address" required>
+
+          <input class="sign-up-form sign-up-form-password" type="password" placeholder="Password" value="Password" aria-label="Password" required>
+
+          <button class="sign-up-form-button">Claim your free trial</button>
+
+          <p class="sign-up-form-warning">By clicking the button, you are agreeing to our
+            <a href="#" class="warning-read-more">Terms and Services</a>
+          </p>
+        </form>
+      </section>
+    </div>
+  </main>
 
 
   <script src="js/main.js"> </script>
